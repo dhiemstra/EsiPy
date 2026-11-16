@@ -3,8 +3,6 @@
 import io
 from setuptools import setup
 
-import esipy
-
 # install requirements
 install_requirements = [
     "requests",
@@ -29,7 +27,7 @@ with io.open('README.rst', encoding='UTF-8') as reader:
 
 setup(
     name='EsiPy',
-    version=esipy.__version__,
+    version="1.2.4",
     packages=['esipy'],
     url='https://github.com/Kyria/EsiPy',
     license='BSD 3-Clause License',
